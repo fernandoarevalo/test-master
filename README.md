@@ -1,46 +1,48 @@
-# Getting Started with Create React App
+# Prueba Técnica Samy 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Desarrollo
 
-## Available Scripts
+Este proyecto se ha desarrollado como una Single Page Application (SPA) utilizando React. Se han implementado las siguientes funcionalidades:
 
-In the project directory, you can run:
+1. Visualización de imágenes con scroll infinito.
+2. Filtrado de contenido mediante búsqueda.
+3. Funcionalidad de like/unlike para cada imagen.
+4. Diseño responsive adaptado a dispositivos móviles y de escritorio.
 
-### `npm start`
+## Librerías utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Para el desarrollo de esta aplicación, se han utilizado las siguientes librerías principales:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- **React**: Para la construcción de la interfaz de usuario.
+- **React Infinite Scroll Component**: Para implementar el scroll infinito.
+- **React Testing Library**: Para la realización de pruebas unitarias.
+- **Talwind CSS**: Para el diseño de la aplicación.
 
-### `npm test`
+## Estructura del proyecto
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+El proyecto está organizado de la siguiente manera:
 
-### `npm run build`
+- `src/components`: Contiene los componentes reutilizables de la aplicación.
+- `src/pages`: Incluye los componentes principales de cada página.
+- `src/hooks`: Contiene hooks personalizados para la lógica de negocio.
+- `src/services`: Incluye los servicios para comunicarse con la API.
+- `src/styles`: Contiene estilos globales y temas.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Cómo ejecutar el proyecto
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Instalar las dependencias:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```
+   npm install
+   ```
 
-### `npm run eject`
+2. Iniciar la API mock:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+   ```
+   npm run mocks
+   ```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+3. Iniciar la aplicación en modo desarrollo:
+   ```
+   npm start
+   ```
